@@ -86,7 +86,7 @@
   flex-direction: column;
   align-items: center;
   width: 50%;
-  padding: 3%;
+  padding: 3% 0 7% 0;
 }
 
 .support h1 {
@@ -110,15 +110,12 @@
   margin: 5% auto 1% auto;
 }
 
-.support-button-container {
-}
-
 .support button {
   font-size: 1rem;
   font-weight: 600;
   background-image: linear-gradient(#cdccd2, #747185);
   color: white;
-  padding: 2%;
+  padding: 0.7rem;
   border-radius: 10%;
   margin: 0 auto 10% auto;
   &:hover {
