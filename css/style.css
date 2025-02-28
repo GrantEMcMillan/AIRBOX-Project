@@ -1,7 +1,9 @@
+/*Remove text-decoration from entire page*/
 * {
   text-decoration: none;
 }
 
+/*Navigation Bar*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -9,9 +11,9 @@
   padding: 3% 1% 2% 3%;
 }
 
+/*Left side of the nav bar*/
 .nav-left {
   display: flex;
-
   gap: 5%;
 }
 
@@ -39,10 +41,10 @@
   color: #bcbbc3;
 }
 
-.name:nth-child(2) {
+.fade-font {
   font-size: x-large;
 
-  background-image: linear-gradient(#bcbbc3, #bcbbc3, black);
+  background-image: linear-gradient(#cdccd2, #747185);
   color: transparent;
   background-clip: text;
 }
@@ -51,6 +53,7 @@
   font-size: 2.2rem;
 }
 
+/*Right side of the nav bar*/
 .nav-right {
   align-content: end;
 }
@@ -67,4 +70,36 @@
   &:hover {
     color: white;
   }
+}
+
+/*Customer Support Section*/
+
+.support-container {
+  display: flex;
+  justify-content: center;
+  background-color: #262336;
+  border-top: solid #58525f 1px;
+}
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.support h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.support .fade-font {
+  font-size: 2.5rem;
+  background-image: linear-gradient(#bcbbc3, #bcbbc3, black);
+  color: transparent;
+  background-clip: text;
+}
+
+.support p {
+  color: #58525f;
+  font-size: 1.5rem;
 }
