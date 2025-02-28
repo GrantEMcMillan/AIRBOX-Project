@@ -19,7 +19,7 @@
 
 .logo {
   display: flex;
-  width: 30%;
+  width: 25%;
   margin-bottom: 8%;
 }
 
@@ -30,6 +30,7 @@
 
 .name {
   align-content: center;
+  margin-bottom: 6%;
 }
 
 .name p {
@@ -85,21 +86,42 @@
   flex-direction: column;
   align-items: center;
   width: 50%;
+  padding: 3%;
 }
 
 .support h1 {
   font-size: 4rem;
   color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .support .fade-font {
-  font-size: 2.5rem;
-  background-image: linear-gradient(#bcbbc3, #bcbbc3, black);
-  color: transparent;
-  background-clip: text;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
 }
 
-.support p {
+.paragraph {
   color: #58525f;
   font-size: 1.5rem;
+  text-align: center;
+  margin: 5% auto 1% auto;
+}
+
+.support-button-container {
+}
+
+.support button {
+  font-size: 1rem;
+  font-weight: 600;
+  background-image: linear-gradient(#cdccd2, #747185);
+  color: white;
+  padding: 2%;
+  border-radius: 10%;
+  margin: 0 auto 10% auto;
+  &:hover {
+    color: #262336;
+  }
 }
