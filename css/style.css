@@ -1,6 +1,7 @@
 /*Remove text-decoration from entire page*/
 * {
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Navigation Bar*/
@@ -121,4 +122,54 @@
   &:hover {
     color: #262336;
   }
+}
+
+/*Section with orange background*/
+.orange-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f29b66;
+  padding-bottom: 5%;
+}
+
+.orange-container img {
+  margin-left: 3%;
+}
+
+.orange-container h2 {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.orange-container h2,
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4%;
+}
+.multi-domain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4%;
+}
+
+.ftp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4%;
+}
+.direct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4%;
 }
