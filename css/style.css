@@ -114,23 +114,25 @@
   margin: 5% auto 1% auto;
 }
 
-.support button {
+/*Try Now Button*/
+
+.try-now {
   font-size: 1rem;
-  font-weight: 600;
+
   background-image: linear-gradient(#cdccd2, #747185);
   color: white;
   padding: 0.7rem;
-  border-radius: 10%;
+  border-radius: 0.5rem 0.5rem;
   margin: 0 auto 10% auto;
   &:hover {
-    color: #262336;
+    font-weight: bolder;
   }
 }
 
 /*Section with orange background*/
 .orange-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #f29b66;
   padding-bottom: 5%;
 }
@@ -158,38 +160,23 @@ p {
   background-clip: text;
 }
 
-.control {
+.service-types {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0 4%;
+  width: 20%;
 }
 
-.multi-domain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 4%;
-}
-
-.ftp {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 4%;
-}
-.direct {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 4%;
-}
-
-/*Price Container*/
-.price-container {
+/*Hosting Options Container*/
+.hosting-container {
   display: flex;
   justify-content: space-around;
   background-color: #e8e8ea;
+  padding: 1% 0 3% 0;
+}
+
+.hosting-table {
+  width: 17%;
+  margin-top: 1rem;
 }
 
 .fade-font-3 {
@@ -200,24 +187,52 @@ p {
 
 .hosting-heading {
   background-color: #6f6c89;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .price {
   color: #d0cdd0;
   background-color: #6f6c89;
-}
-
-h2.price {
   margin-bottom: 0px;
   margin-top: 0px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 25px 0;
 }
 
 .per-month {
   background-image: linear-gradient(#db7c39, #b9674d);
   color: transparent;
   background-clip: text;
+  font-size: 1rem;
+}
+
+/*Hosting Details*/
+
+td {
+  border: solid #b9b6bb 1px;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #8b8484;
+  padding: 5%;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+td:nth-child(even) {
+  background-color: #f5f0f0;
+}
+
+/*Sign Up Button*/
+.sign-up {
+  background-image: linear-gradient(#f18a54, #e66032);
+  color: white;
+  border-radius: 0.5rem 0.5rem;
+  padding: 0.3rem 1.8rem;
+  font-size: 1rem;
+  border: none;
+
+  &:hover {
+    font-weight: bolder;
+  }
 }
