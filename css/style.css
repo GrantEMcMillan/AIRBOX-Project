@@ -232,7 +232,7 @@ td:nth-child(even) {
 }
 
 /*Sign Up Button*/
-.sign-up {
+.orange-button {
   background-image: linear-gradient(#f18a54, #e66032);
   color: white;
   border-radius: 0.5rem 0.5rem;
@@ -243,4 +243,35 @@ td:nth-child(even) {
   &:hover {
     font-weight: bolder;
   }
+}
+
+/*Solutions Section*/
+.solutions-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #262336;
+}
+
+.solutions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18%;
+  padding: 0 0 6% 0;
+}
+
+.solutions ul {
+  margin-top: 0;
+}
+
+.solutions li {
+  color: white;
+}
+.solutions li::marker {
+  color: #e66032;
+}
+
+.solutions p {
+  color: #a9a4ad;
+  margin-bottom: 3%;
 }
