@@ -21,6 +21,7 @@
 .logo {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   width: 25%;
 
   margin-bottom: 8%;
@@ -33,8 +34,11 @@
 }
 
 .name {
-  align-content: center;
-  margin-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5%;
 }
 
 .name p {
@@ -133,37 +137,32 @@
 .orange-container {
   display: flex;
   justify-content: space-around;
+
   background-color: #f29b66;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
-.orange-container img {
-  margin-left: 3%;
-  width: 100%;
+.service-types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
 }
-
-.orange-container h2 {
-  font-size: 1.8rem;
+.service-types h2 {
   color: white;
 }
 
-.orange-container h2,
+.service-types h2,
 p {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .fade-font-2 {
   background-image: linear-gradient(white, #cdccd2);
   color: transparent;
   background-clip: text;
-}
-
-.service-types {
-  display: flex;
-  flex-direction: column;
-  width: 18%;
 }
 
 /*Hosting Options Container*/
