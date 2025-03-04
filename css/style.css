@@ -22,7 +22,8 @@
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  width: 25%;
+  width: 100px;
+  height: 100px;
 
   margin-bottom: 8%;
 }
@@ -285,4 +286,62 @@ td:nth-child(even) {
 }
 .sponsors img {
   flex-grow: 1;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1921;
+}
+
+/*Left Side of Footer*/
+
+.foot-left {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 35%;
+  color: #58525f;
+  padding: 2%;
+  font-size: 0.8rem;
+}
+
+.foot-left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+.name-foot {
+  display: flex;
+  flex-direction: column;
+  color: #58525f;
+}
+.split-font-2 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #6f6c89;
+}
+
+.foot-left a {
+  color: #58525f;
+  &:hover {
+    color: white;
+  }
+}
+
+/*Right Side of Footer*/
+
+.foot-right {
+  display: flex;
+  align-items: flex-end;
+}
+.foot-right li {
+  display: inline;
+  margin-left: -2rem;
+}
+
+.foot-right img:hover {
+  margin-bottom: 5px;
 }
