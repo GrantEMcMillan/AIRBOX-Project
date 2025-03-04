@@ -249,6 +249,7 @@ td:nth-child(even) {
 .solutions-container {
   display: flex;
   justify-content: space-around;
+
   background-color: #262336;
 }
 
@@ -256,6 +257,7 @@ td:nth-child(even) {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
   width: 18%;
   padding: 0 0 6% 0;
 }
@@ -274,4 +276,13 @@ td:nth-child(even) {
 .solutions p {
   color: #a9a4ad;
   margin-bottom: 3%;
+}
+
+/*Sponsors Sections*/
+
+.sponsors {
+  display: flex;
+}
+.sponsors img {
+  flex-grow: 1;
 }
