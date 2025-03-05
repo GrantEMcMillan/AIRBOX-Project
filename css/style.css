@@ -271,7 +271,7 @@ td:nth-child(even) {
   color: white;
 }
 .solutions li::marker {
-  color: #e66032;
+  color: #f18a54;
 }
 
 .solutions p {
