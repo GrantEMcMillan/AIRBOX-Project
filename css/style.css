@@ -93,10 +93,15 @@
 }
 .support {
   display: flex;
+
   flex-direction: column;
   align-items: center;
   width: 50%;
   padding: 3% 0 7% 0;
+}
+
+.support p {
+  text-align: center;
 }
 
 .support h1 {
