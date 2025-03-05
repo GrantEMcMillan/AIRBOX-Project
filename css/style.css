@@ -290,9 +290,6 @@ td:nth-child(even) {
 
 /*Sponsors Section*/
 
-.sponsors {
-  display: flex;
-}
 .sponsors img {
   width: 100%;
 }
