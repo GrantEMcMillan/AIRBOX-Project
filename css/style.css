@@ -51,6 +51,7 @@
   color: #bcbbc3;
 }
 
+/*Add Text Gradient*/
 .fade-font {
   font-size: x-large;
 
@@ -205,6 +206,7 @@ p {
   font-size: 1rem;
 }
 
+/*Add Down Arrow in the Table*/
 .arrow-down {
   width: 0;
   height: 0;
@@ -224,6 +226,7 @@ td {
   padding: 5%;
 }
 
+/* Alternate Colors of Table*/
 tr:nth-child(odd) {
   background-color: #ffffff;
 }
@@ -250,8 +253,8 @@ td:nth-child(even) {
 .solutions-container {
   display: flex;
   justify-content: space-around;
-
   background-color: #262336;
+  position: relative;
 }
 
 .solutions {
@@ -279,7 +282,13 @@ td:nth-child(even) {
   margin-bottom: 3%;
 }
 
-/*Sponsors Sections*/
+.solutions .orange-button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1rem;
+}
+
+/*Sponsors Section*/
 
 .sponsors {
   display: flex;
