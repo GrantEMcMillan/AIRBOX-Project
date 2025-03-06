@@ -159,12 +159,15 @@
 }
 .service-types h2 {
   color: white;
-}
-
-.service-types h2,
-p {
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+.service-types p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .fade-font-2 {
@@ -313,7 +316,7 @@ footer {
 .foot-left {
   display: flex;
   align-items: center;
-  gap: 5%;
+  gap: 3%;
   width: 35%;
   color: #58525f;
   padding: 2%;
@@ -331,9 +334,14 @@ footer {
   flex-direction: column;
   color: #58525f;
 }
+
+.name-foot p {
+  margin: 0;
+  padding: 0;
+}
 .split-font-2 {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #6f6c89;
 }
 
