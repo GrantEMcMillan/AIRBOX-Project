@@ -248,7 +248,7 @@ td:nth-child(even) {
 .orange-button {
   background-image: linear-gradient(#f18a54, #e66032);
   color: white;
-  border-radius: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
   padding: 0.3rem 1.8rem;
   font-size: 1rem;
   border: none;
@@ -263,7 +263,6 @@ td:nth-child(even) {
   display: flex;
   justify-content: space-around;
   background-color: #262336;
-  position: relative;
 }
 
 .solutions {
@@ -282,6 +281,8 @@ td:nth-child(even) {
 .solutions li {
   color: white;
 }
+
+/*Change Color of Bullets*/
 .solutions li::marker {
   color: #f18a54;
 }
@@ -289,12 +290,6 @@ td:nth-child(even) {
 .solutions p {
   color: #a9a4ad;
   margin-bottom: 3%;
-}
-
-.solutions .orange-button {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 1rem;
 }
 
 /*Sponsors Section*/
@@ -317,9 +312,9 @@ footer {
   display: flex;
   align-items: center;
   gap: 3%;
-  width: 35%;
+  width: 40%;
   color: #58525f;
-  padding: 2%;
+  padding: 1.7%;
   font-size: 0.8rem;
 }
 
