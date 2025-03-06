@@ -16,6 +16,7 @@
 .nav-left {
   display: flex;
   gap: 5%;
+  width: 25%;
 }
 
 .logo {
